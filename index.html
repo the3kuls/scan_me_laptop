@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Never Scan Random Shit !!</title>
+    <title>Responsive Banner</title>
     <style>
         body {
             background-color: black;
@@ -15,28 +15,48 @@
             white-space: pre-wrap;
             line-height: 1.2;
         }
-        /* Style for the banner image */
+
+        /* Banner Image Styling */
         .banner {
-            width: 100%; /* Full width of the screen */
-            height: auto; /* Keeps the aspect ratio intact */
-            max-height: 250px; /* Adjust max height */
-            object-fit: cover; /* Ensures the image covers the area */
+            width: 100%;
+            height: 300px; /* Adjustable banner height */
+            object-fit: cover; /* Ensures the GIF covers the area */
+            display: block;
         }
+
+        /* Styling for the text content */
         a {
             color: #00FF00;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
+        /* For mobile responsiveness */
+        @media (max-width: 768px) {
+            .banner {
+                height: 250px; /* Adjust height for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner {
+                height: 200px; /* Even smaller height for very small screens */
+            }
+        }
+
     </style>
 </head>
 <body>
-    <!-- Add GIF above the text -->
-    <img src="7f11698ae54cefd811b2cf5e61046896.gif" alt="The Rock GIF" class="banner">
-    
-    <p>STOP GROPING MY LAP BRO!! hand it over.</p>
+
+    <!-- Banner Image at the top -->
+    <img src="cyber.gif" alt="Glitched GIF Banner" class="banner">
+
+    <p>STOP GROPING MY LAP BRO!! Hand it over.</p>
     <p>text me in my socials asap if my LAP is Lost ffs : <a href="https://Hack_@is.gd/_Miner_jar" target="_blank">insta!!@ray</a></p> 
     <p>you prefer whatsapp? find me here! : <a href="https://Backdoor_@is.gd/_Spyware_zip" target="_blank">what!!@ray</a></p>
+
 </body>
 </html>
